@@ -12,7 +12,9 @@ which creates a <code>dist</code> directory publishes the code to it.
 
 ## Deployment
 
-The code will be deployed to _Netlify_ via Github which is done by setting up atool chain that will eventually cause every <code>push</code> to the git repository to trigger a re-deployment to Netlify. This accomplished with the use of an `npm build src/index.html` script. Adding <code>build</code> to the command handles minification, [browser] cache-busting, and tree-shaking code to produce clean production files.
+The code will be deployed to _Netlify_ via Github which is done by setting up atool chain that will eventually cause every <code>push</code> to the git repository to trigger a re-deployment to Netlify. This accomplished with the use of an `npm build src/index.html` script. Adding <code>build</code> to the command handles minification, (browser) cache-busting, and tree-shaking code to produce clean production files.
+
+Example was deployed [_here_](https://condescending-wozniak-eeeef6.netlify.app/)
 
 References:
 
