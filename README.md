@@ -1,4 +1,4 @@
-# MDN Will-it-miss NASA Project
+# MDN will-it-miss NASA Feed Project
 
 A case study to deploy a mini-site that reads NASA's API to display information on potentially hazardous space objects. The study is based on how to use the core _tools_ around web development (see dev-dependencies in package.json for a list) rather than the code itself.
 
@@ -15,6 +15,10 @@ which creates a <code>dist</code> directory publishes the code to it.
 The code will be deployed to _Netlify_ via Github which is done by setting up atool chain that will eventually cause every <code>push</code> to the git repository to trigger a re-deployment to Netlify. This accomplished with the use of an `npm build src/index.html` script. Adding <code>build</code> to the command handles minification, (browser) cache-busting, and tree-shaking code to produce clean production files.
 
 Example was deployed [_here_](https://condescending-wozniak-eeeef6.netlify.app/)
+
+## Testing
+
+Includes a simple test using <code>axios</code>.
 
 References:
 
