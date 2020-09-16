@@ -18,7 +18,11 @@ Example was deployed [_here_](https://condescending-wozniak-eeeef6.netlify.app/)
 
 ## Testing
 
-Includes a simple test using <code>axios</code>.
+Includes a simple test using <code>axios</code>. Couldn't get it to work as given:
+
+<code>
+"test": "node tests\*.js" --> "node test\nasa-feed.test.js"
+</code>
 
 References:
 
